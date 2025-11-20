@@ -1,0 +1,33 @@
+.custom-button {
+	background-color: transparent;
+	border: none;
+	text-wrap: nowrap;
+	color: #484848;
+	padding: 16px 32px;
+	cursor: pointer;
+	border-radius: 8px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0%;
+
+	transition:
+		background-color 0.3s ease,
+		transform 0.2s ease;
+
+	&:hover {
+		background-color: #1572d3;
+		transform: translateY(-2px);
+		color: #ffffff;
+	}
+
+	&:active {
+		transform: scale(0.97);
+	}
+}
